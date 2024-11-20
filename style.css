@@ -1,0 +1,299 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url("image/1382539589470.jpeg");
+  /* min-height: 380px;  */
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* nav {
+  background-color: #333;
+  padding: 10px 0;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: greenyellow;
+  border-radius: 4px;
+}
+#home {
+  /* background-image: url("image/1382539589470.jpeg"); */
+  box-sizing: border-box;
+}
+
+/* .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: greenyellow;
+  color: black;
+} */
+h1 {
+  padding-top: 8%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 45px;
+  color: black;
+}
+h4 {
+  padding-left: 30%;
+  padding-right: 30%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+.download-btn {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 14px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: red;
+}
+.body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f9f9f9; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.product {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.add-to-cart {
+  background-color: #3498db;
+  color: white;
+}
+
+/* .buy-now {
+  background-color: #e74c3c;
+  color: white;
+} */
+
+.btn:hover {
+  opacity: 0.9;
+}
+b {
+  color: blue;
+}
+.body-div {
+  font-family: Arial, sans-serif;
+  /* background-color: #f4f4f4; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contact-form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+  text-align: center;
+  padding: 6px;
+  background-color: rgb(235, 163, 137);
+  color: white;
+}
+#our-menu {
+  background-color: white;
+}
+#contact {
+  background-color: white;
+}
+.div-main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#services {
+  background-color: white;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+/* Logo image styling */
+.logo img {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 50%; /* Make the image circular if needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+.box {
+  width: 300px;
+  height: 350px;
+  padding: 20px; /* Space between content and border */
+  border: 5px solid #edeaea; /* Border around the element */
+  margin: 20px; /* Space outside the border */
+  background-color: #f0f0f0;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(243, 240, 240, 0.1);
+}
+.p-div {
+  font-size: 15px;
+}
+.topnav {
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+.topnav a {
+  /* float: left; */
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+.topnav a.active {
+  /* background-color: #04aa6d; */
+  color: white;
+}
+.class-div {
+  background-color: rgb(86, 81, 81);
+  text-align: center;
+  height: 35vh;
+  padding-top: 4%;
+}
+.btn-div {
+  border: none;
+  font-size: 20px;
+  border-radius: 0.2rem;
+  padding: 6px;
+  background-color: #e23d3d;
+  color: #fafafa;
+  outline: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.2s;
+}
